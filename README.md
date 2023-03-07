@@ -36,9 +36,9 @@ function App() {
 
 <!-- ## Stack utilizada
 
-**Front-end:** React, Redux, TailwindCSS
+**Front-end:** React, JavaScript, Css
 
-**Back-end:** Node, Express
+**Back-end:** Node, Rollup
 
 ## Documentação de cores
 

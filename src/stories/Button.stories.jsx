@@ -5,10 +5,10 @@ export default {
   title: 'Button',
   component: Button,
   args: {
-    children: 'Button',
+    title: 'Button',
   },
   argTypes: {
-    children: { type: 'string' },
+    title: { type: 'string' },
   },
 };
 
