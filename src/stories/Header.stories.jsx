@@ -6,7 +6,7 @@ export default {
   component: Header,
   args: {
     logo: 'Header',
-    items: [{ item: "Item1", links: "link/item1" }, { item: "item2", links: "link/item2" }],
+    items: [{ item: "Home", links: "link/item1" }, { item: "About", links: "link/item2" }, { item: "Contact", links: "link/item2" }],
     newPage: false
   },
   argTypes: {
