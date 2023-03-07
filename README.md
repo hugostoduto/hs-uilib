@@ -1,5 +1,5 @@
 
-![Logo](https://static.wixstatic.com/media/afe1f6_ab203a8a88e04916a4da07df0a32550b~mv2.png)
+![Logo](https://static.wixstatic.com/media/afe1f6_bce595eab0b04d0ab0973ad2c61493a6~mv2.png)
 
 
 # Hs Material Ui
