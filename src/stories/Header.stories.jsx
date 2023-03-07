@@ -7,19 +7,30 @@ export default {
   args: {
     logo: 'Header',
     items: [{ item: "Home", links: "link/item1" }, { item: "About", links: "link/item2" }, { item: "Contact", links: "link/item2" }],
-    newPage: false
+    newPage: false,
+    logoImg: false
   },
+
   argTypes: {
     logo: { type: 'string' },
     items: { type: 'array' },
-    newPage: { type: "boolean" }
+    newPage: { type: "boolean" },
+    logoImg: { type: "boolean" },
+
   },
 };
 
-export const Template = (args) => {
+export const LogoTexto = (args) => {
   return (
     <div>
       <Header {...args} />
+    </div>
+  );
+};
+export const LogoImagem = (args) => {
+  return (
+    <div>
+      <Header items={[{ item: "Home", links: "link/item1" }, { item: "About", links: "link/item2" }, { item: "Contact", links: "link/item2" }]} logoImg={true} logo="https://static.wixstatic.com/media/afe1f6_f76b59c06a7745678617eb165a0b06e7~mv2.png" />
     </div>
   );
 };

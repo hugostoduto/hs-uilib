@@ -2,12 +2,12 @@ import P from 'prop-types';
 import React, { useState } from 'react';
 import './Header.css';
 
-export const Header = ({ logo, items, newPage = false, typeOfLogo, bgColor, fontColor = "#fff" }) => {
+export const Header = ({ logo, items, newPage = false, logoImg, bgColor, fontColor = "#fff" }) => {
   const [visible, setVisible] = useState(false)
   return (
 
     <div style={{ backgroundColor: `${bgColor}`, color: `${fontColor}` }} className='hs-uilib-header-container'>
-      <div className='hs-uilib-header-logo' >{!typeOfLogo ? <h1>{logo}</h1> : <img className="" src={logo} />} </div>
+      <div className='hs-uilib-header-logo' >{!logoImg ? <h1>{logo}</h1> : <img className="hs-uilib-header-logo-img" src={logo} />} </div>
       <div >
         <div className='hs-uilib-header-menu'>
           {items.map(i => {
