@@ -16,10 +16,10 @@ npm i hs-uilib
 ## Uso/Exemplos
 
 ```javascript
-import Component from 'my-project'
+import Button from 'hs-uilib'
 
 function App() {
-  return <Component />
+  return <Button title="Press Me" backgroundColor="#219ebc" handleClick={() => ()} />
 }
 ```
 
@@ -34,7 +34,7 @@ function App() {
 - [@hugostoduto](https://www.github.com/hugostoduto)
 
 
-## Stack utilizada
+<!-- ## Stack utilizada
 
 **Front-end:** React, Redux, TailwindCSS
 
@@ -55,5 +55,5 @@ function App() {
 - Temas dark e light
 - Preview em tempo real
 - Modo tela cheia
-- Multiplataforma
+- Multiplataforma -->
 
