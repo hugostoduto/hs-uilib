@@ -2,11 +2,15 @@
   margin: 0;
   padding: 0;
 }
+.hs-uilib-card-text hr {
+  width: 90%;
+}
 .hs-uilib-card-container{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 300px;
+  justify-content: space-between;
+  width: 350px;
   height: 400px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.288);
   text-align: center;
@@ -17,14 +21,58 @@
   height: 200px;
   object-fit: cover;
 }
+.hs-uilib-card-text{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+
+}
 .hs-uilib-card-title{
   
-  font-weight: bold;
-  font-size: 1.5rem;
+  
   text-align: left;
-  width: 80%;
+  width: 90%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 10px;
+  font-weight: bold;
+   font-size: 1.5rem;
+   line-height: 1.334;
+   letter-spacing: 0em;
+   
 }
 .hs-uilib-card-descrption{
   text-align: left;
-  width: 80%;
+  width: 90%;
+   text-overflow: ellipsis;
+   overflow: hidden;
+   font-size: 1.2rem;
+   margin-top: 10px;
+   font-weight: 400;
+   font-size: 0.875rem;
+   line-height: 1.43;
+   letter-spacing: 0.01071em;
+   color: rgba(0, 0, 0, 0.6);
+}
+.hs-uilib-card{
+  width: 50%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #023047;
+  transition: 0.3s all;
+  
+}
+.hs-uilib-card:hover{
+  color: #fff;
+  background-color: #8ecae694;
+  transition: 0.3s all;
+  
 }
