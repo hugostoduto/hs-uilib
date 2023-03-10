@@ -2,14 +2,16 @@
   margin: 0;
   padding: 0;
 }
-.hs-uilib-card-text hr {
+hr {
+  margin: 0;
+  padding: 0;
   width: 90%;
 }
 .hs-uilib-card-container{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
   width: 350px;
   height: 400px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.288);
@@ -26,35 +28,36 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
-
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
 }
 .hs-uilib-card-title{
-  
-  
   text-align: left;
   width: 90%;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  margin-top: 10px;
+  margin: 10px 0px;
   font-weight: bold;
-   font-size: 1.5rem;
-   line-height: 1.334;
-   letter-spacing: 0em;
-   
+  font-size: 1.5rem;
+  line-height: 1.334;
+  letter-spacing: 0em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  
 }
 .hs-uilib-card-descrption{
   text-align: left;
   width: 90%;
-   text-overflow: ellipsis;
-   overflow: hidden;
-   font-size: 1.2rem;
-   margin-top: 10px;
-   font-weight: 400;
-   font-size: 0.875rem;
-   line-height: 1.43;
-   letter-spacing: 0.01071em;
-   color: rgba(0, 0, 0, 0.6);
+  height: 100px;
+  margin: 10px 0px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  color: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .hs-uilib-card{
   width: 50%;
