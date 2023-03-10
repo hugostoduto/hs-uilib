@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import P from 'prop-types';
-export const Toggle = ({ handleClick, activeBackground = "#219ebc", disableBackground = "#edede9" }) => {
+export const Toggle = ({ onClick, activeBackground = "#219ebc", disableBackground = "#edede9" }) => {
 
   const [active, setActive] = useState(false)
 
   const handleChange = () => {
     return (
       setActive(!active ? true : false),
-      handleClick()
+      onClick()
     )
   }
 
@@ -27,7 +27,7 @@ export const Toggle = ({ handleClick, activeBackground = "#219ebc", disableBackg
 };
 
 Toggle.propTypes = {
-  handleClick: P.node,
+  onClick: P.node,
   activeBackground: P.string,
   disableBackground: P.string,
 };
