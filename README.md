@@ -1,5 +1,5 @@
 
-![Logo](https://static.wixstatic.com/media/afe1f6_bce595eab0b04d0ab0973ad2c61493a6~mv2.png)
+![Logo](https://static.wixstatic.com/media/afe1f6_0303a1f40d4f4e659869a39211f3b0d6~mv2.jpg)
 
 
 # Hs Ui Library
