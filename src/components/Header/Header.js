@@ -27,7 +27,7 @@ export const Header = ({ logo, items, newPage = false, logoImg, bgColor, fontCol
         <button style={{ color: `${fontColor}` }} className='hs-uilib-header-close-menu' onClick={() => setVisible(false)}>x</button>
         {items.map(i => {
           return (
-            <a style={{ color: `${fontColor}` }} className='hs-uilib-header-menu-links-mobile' target={!newPage ? "" : "_blank"} href={i.links}>{i.item}</a>
+            <a style={{ color: `${fontColor}` }} className='hs-uilib-header-menu-links-mobile' target={!newPage ? "" : "_blank"} href={i.link}>{i.item}</a>
           )
         })}
       </div>
