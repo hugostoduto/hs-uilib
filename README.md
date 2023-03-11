@@ -2,14 +2,14 @@
 ![Logo](https://static.wixstatic.com/media/afe1f6_bce595eab0b04d0ab0973ad2c61493a6~mv2.png)
 
 
-# Hs Material Ui
+# Hs Ui Library
 
 React UI component library
 
 ## Installation
 
 
-Hs Material Ui is available as an [npm](https://www.npmjs.com/package/hs_rng) package.
+Hs Ui Library is available as an [npm](https://www.npmjs.com/package/hs-uilib) package.
 ```bash
 npm i hs-uilib
 ```
