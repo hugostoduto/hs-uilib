@@ -26,7 +26,7 @@ function App() {
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://static.wixstatic.com/media/afe1f6_9e312d5f2f264b85b93346ec239ef99e~mv2.png)
 
 
 ## Autores
