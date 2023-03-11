@@ -1,6 +1,6 @@
 {
   "name": "hs-uilib",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Material ui library",
   "type": "module",
   "main": "dist/index.js",
