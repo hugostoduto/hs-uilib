@@ -28,8 +28,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: hidden;
-  text-overflow: ellipsis;
+
   
 }
 .hs-uilib-card-title{
@@ -40,12 +39,11 @@ hr {
   font-size: 1.5rem;
   line-height: 1.334;
   letter-spacing: 0em;
+  padding: 10px;
   overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
   
 }
-.hs-uilib-card-descrption{
+.hs-uilib-card-description{
   text-align: left;
   width: 90%;
   height: 100px;
@@ -56,8 +54,8 @@ hr {
   line-height: 1.43;
   letter-spacing: 0.01071em;
   color: rgba(0, 0, 0, 0.6);
-  overflow: hidden;
-  text-overflow: ellipsis;
+ 
+  
 }
 .hs-uilib-card{
   width: 50%;

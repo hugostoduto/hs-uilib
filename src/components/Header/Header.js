@@ -1,4 +1,4 @@
-import P from 'prop-types';
+
 import React, { useState } from 'react';
 import './Header.css';
 
@@ -36,8 +36,3 @@ export const Header = ({ logo, items, newPage = false, logoImg, bgColor, fontCol
   );
 };
 
-Header.propTypes = {
-  logo: P.node.isRequired,
-  items: P.array,
-  newPage: P.bool
-};

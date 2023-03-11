@@ -1,7 +1,8 @@
-import babel from 'rollup-plugin-babel'
+import babel from 'rollup-plugin-babel';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import external from 'rollup-plugin-peer-deps-external';
-
+import postcss from 'rollup-plugin-postcss';
+import { terser } from 'rollup-plugin-terser';
 
 export default [
   {
@@ -23,12 +24,18 @@ export default [
 
     ],
     plugins: [
+
+      postcss({
+        plugins: [],
+        minimize: true
+      }),
       babel({
         exclude: 'node_modules',
         presets: ['@babel/preset-react']
       }),
       external(),
-      [nodeResolve()]
+      [nodeResolve()],
+      terser()
 
     ]
   }
