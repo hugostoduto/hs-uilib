@@ -13,13 +13,13 @@ Hs Ui Library is available as an [npm](https://www.npmjs.com/package/hs-uilib) p
 ```bash
 npm i hs-uilib
 ```
-## Uso/Exemplos
+## Exemple
 
 ```javascript
 import {Button} from 'hs-uilib'
 
 function App() {
-  return <Button title="Press Me" backgroundColor="#219ebc" handleClick={() => console.log("Action")} />
+  return <Button title="Press Me" backgroundColor="#219ebc" onClick={() => console.log("Action")} />
 }
 ```
 
@@ -29,7 +29,7 @@ function App() {
 ![App Screenshot](https://static.wixstatic.com/media/afe1f6_9e312d5f2f264b85b93346ec239ef99e~mv2.png)
 
 
-## Autores
+## Author
 
 - [@hugostoduto](https://www.github.com/hugostoduto)
 
