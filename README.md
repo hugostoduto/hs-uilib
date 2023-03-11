@@ -4,9 +4,8 @@
 
 # Hs Ui Library
 
-React UI component library
+ [Hs Ui Library](https://www.hugostoduto.com/hs-ui-library) is a React UI component library
 
-[Components](https://www.hugostoduto.com/hs-ui-library)
 
 ## Installation
 
