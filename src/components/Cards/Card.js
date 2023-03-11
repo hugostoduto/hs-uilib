@@ -3,8 +3,8 @@ import "./Card.css"
 export const Card = ({ title, description, image, alt, btnTitle, link, newPage }) => {
   const descriptionLength = description.length
   const titleLength = title.length
-  const descriptionLimit = descriptionLength > 140 ? description.substring(0, 140) + "..." : description
-  const titleLimit = titleLength > 25 ? title.substring(0, 25) + "..." : title
+  const descriptionLimit = descriptionLength > 140 ? `${description.substring(0, 140)}...` : description
+  const titleLimit = titleLength > 25 ? `${title.substring(0, 25)}...` : title
 
   console.log(descriptionLimit.toString())
   return (
